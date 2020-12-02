@@ -1,0 +1,33 @@
+body {
+    color: #000;
+    background-color: #fff;
+    font-family: Georgia, serif;
+}
+
+.area {
+    padding-top: 40px;
+    display: grid;
+    width: 128;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2px;
+}
+
+.area div {
+    color: white;
+    font-size: 13px;
+    padding: 13px;
+}
+
+#hero {
+    position: relative;
+    top: 0
+}
+
+#hero:hover {
+    top: -4px;
+    box-shadow: 0 4px 4px #999;
+    transition: all .2s ease-in-out
+}
